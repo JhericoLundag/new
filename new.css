@@ -22,7 +22,7 @@
     opacity: 0.3;
     position: relative;
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-transform: uppercase; 
     margin-top: -50px;
     width: 100%;
@@ -113,6 +113,7 @@ h2::before{
     }
 }
 .pic{
+    
     display: block;
     width: 100%;
     height: 35vw;
@@ -124,17 +125,29 @@ h2::before{
     background-position: center;
   
 }
-.gradient-overlay {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(to right, rgba(0,0,0, 10), rgba(0,0,0, 0.2));
+.collapse{
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    background-color: black;
+   
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 5px;
+    transition: 0.4s;
   }
-
-
-
-@media (max-width: 479px) {
+  .change .bar1 {transform: translate(0, 11px) rotate(-45deg);}
+  .change .bar2 {opacity: 0;}
+  .change .bar3 {transform: translate(0, -11px) rotate(45deg);}
+  
+@media (max-width: 560px) {
     #box h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     #box h2::before{
         top:-2px;
@@ -146,7 +159,17 @@ h2::before{
     }
     .para{
         font-size: 0.5rem;
-    }  
+    }
+    .collapse{
+        position: absolute;
+        margin-top: 260px;
+        opacity: 1;
+        margin-left: 9px;
+        z-index: 3;
+    }
+    
 }
+
+
 
 
