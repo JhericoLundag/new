@@ -1,6 +1,25 @@
-function myFunction(x) {
-    x.classList.toggle("change");
+var navLinks; 
+var isMenuOpen = true;
+document.addEventListener("DOMContentLoaded", function () {
+  navLinks = document.getElementById("navLinks"); 
+});
+
+function toggleMenu() {
+  navLinks.style.visibility= "visible";
+  if (isMenuOpen) {
+    navLinks.style.display ='block';
+    
+  } else {
+    navLinks.style.display ='none'; 
+    
   }
+  isMenuOpen =! isMenuOpen;
+}
+
+function myFunction(x) {
+  x.classList.toggle("change");
+  toggleMenu();
+}
   document.addEventListener("DOMContentLoaded", function () {
     image1 = document.getElementById('slider1');
     image2 = document.getElementById('slider2');
