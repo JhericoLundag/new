@@ -212,9 +212,7 @@ h2::before{
     font-family: fantasy;
     -webkit-text-stroke: 2px  lightgray;
    }
-   .row{
-    border: 2px solid blue;
-   }
+   
    .flip-card{
     width: 25vw;
     height: 30vw;
@@ -261,13 +259,13 @@ h2::before{
   }
   .flip-card-back p{
     margin-left: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-variant: small-caps;
     font-family: fantasy;
   }
   .flip-card-back h1{
     margin-left: 10px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-variant: small-caps;
     font-family: fantasy;
   }
@@ -325,11 +323,11 @@ h2::before{
 
 
 .flip-card-back p{
-    font-size: 0.3rem;
+    font-size: 0.2rem;
 
   }
   .flip-card-back h1{
-    font-size: 0.5rem;
+    font-size: 0.2rem;
 
   }
 
