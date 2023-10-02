@@ -1,5 +1,7 @@
 *{
     color:white;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -113,7 +115,6 @@ h2::before{
     }
 }
 .pic{
-    
     display: block;
     width: 100%;
     height: 35vw;
@@ -123,14 +124,19 @@ h2::before{
     background-repeat: no-repeat;
     background-size: 35vw 35vw;
     background-position: center;
-  
 }
+.gradient-overlay {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0, 10), rgba(0,0,0, 0.2));
+  }
+
 .collapse{
     opacity: 0.8;
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-size: 1.3rem;
-    background-color: black;
+    background-color:1px solid black;
    
 }
 
@@ -164,8 +170,8 @@ h2::before{
         position: absolute;
         margin-top: 260px;
         opacity: 1;
-        margin-left: 9px;
         z-index: 3;
+        font-size: 1rem;
     }
     
 }
