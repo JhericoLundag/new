@@ -293,10 +293,13 @@ h2::before{
     width:100vw;
     padding-top: 20vw;
     height: 85vw;
+    
+    
   } 
-  .slider{
-    overflow: hidden;
+  #echo{
+    clip-path: polygon(0% 15%, 0 0, 27% 0, 55% 0, 100% 0, 100% 9%, 100% 100%, 79% 100%, 63% 100%, 29% 100%, 19% 89%, 0 89%);
   }
+
   #slider{
     margin-top:-85vw;
     margin-left: 28vw;
@@ -307,7 +310,6 @@ h2::before{
     z-index: 3;
     perspective: 1800px;
     perspective-origin: 50%;
-  
     
   }
   #slider label,
@@ -327,6 +329,7 @@ h2::before{
 
     
   }
+ 
   #slider label img{
     width: 30vw;
     border-style: double;
@@ -353,7 +356,6 @@ h2::before{
      opacity: 0.4;
      transform: translateX(-83px);
      cursor: pointer;
-    
   
   }
   input[type=radio]{
@@ -454,12 +456,10 @@ h2::before{
   }
   .gradient-overlay1 {
       color: #F8F8FF;
-      height: auto;
       width: 100%;
       height: 100%;
-      border: 1px solid black;
       background-image: linear-gradient(to bottom, rgba(0,0,0, 10), rgba(0,0, 0, 0.1));
-      z-index: 2;
+      z-index: 1;
    
       
     }
@@ -488,6 +488,160 @@ h2::before{
         margin-left: 40vw;
         font-size: 1rem;
         font-variant: small-caps;
+      }
+      .boxxx{
+        opacity: 1;
+        width: 100vw;
+        height: 75vw;
+        margin-top: 0vw;
+        color:black;
+        clip-path: polygon(0 0, 8% 0, 12% 10%, 30% 10%, 38% 0, 100% 0, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+      }
+      .fami{
+        margin-top: 8vw;
+        position: absolute;
+        width: 45vw;
+        height: 55vw;
+        font-size: 2vw;
+        font-variant: small-caps;
+        color:black;
+        
+       
+      }
+      .fami h1 , .fami p{
+        margin-left: 10vw;
+        color:black;
+        
+      }
+      .educ{
+        position: absolute;
+        background-color: black;
+        width: 53.2vw;
+        height: 65vw;
+        margin-left: 42vw;
+        color: white;
+        padding-top: 2vw;
+        padding-left: 2vw;
+        font-variant: small-caps;
+        border-style: ridge;
+      }
+      .educ p{
+        color: white;
+        font-size: 1.9vw;
+      }
+      .educ h1{
+        font-size: 3vw;
+      }
+      .circle{
+        position: absolute;
+        background-image: url(ariel.jpg);
+        background-repeat: no-repeat;
+        background-size: 24vw 24vw;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        width: 24vw;
+        height: 24vw;
+        margin-left: 23vw;
+        margin-top: 10vw;
+        z-index: 2;
+        cursor: pointer;
+        transition: tansform 0.3s ease;
+        
+      }
+      .circle1{
+        position: absolute;
+        background-image: url(mama.jpg);
+        background-repeat: no-repeat;
+        background-size: 24vw 24vw;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        width: 24vw;
+        height: 24vw;
+        margin-left: 10.5vw;
+        margin-top: 24vw;
+        cursor: pointer;
+       
+      }
+      .circle2{
+        position: absolute;
+        background-image: url(hannah.jpg);
+        background-repeat: no-repeat;
+        background-size: 24vw 24vw;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        width: 23vw;
+        height: 24vw;
+        margin-left: -1vw;
+        margin-top: 10vw;
+        cursor: pointer;
+      }
+    
+      .about1{
+        position: absolute;
+        background-color: white;
+        height: 20vw;
+        margin-left: 46vw;
+        margin-top: 15vw;
+        display: none;
+        animation: textAnimation 2s ease-in;
+        animation-fill-mode: forwards;
+        z-index: 1;
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 60%, 86% 100%, 20% 100%, 0 100%, 0% 20%);
+      }
+      .about0{
+        position: absolute;
+        background-color: white;
+        height: 20vw;
+        margin-left: 46vw;
+        margin-top: 15vw;
+        display: none;
+        animation: textAnimation 2s ease-in;
+        animation-fill-mode: forwards;
+        z-index: 1;
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 60%, 86% 100%, 20% 100%, 0 100%, 0% 20%);
+      }
+      .about2{
+        position: absolute;
+        background-color: white;
+        height: 20vw;
+        margin-left: 46vw;
+        margin-top: 15vw;
+        display: none;
+        animation: textAnimation 2s ease-in;
+        animation-fill-mode: forwards;
+        z-index: 1;
+        clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 60%, 86% 100%, 20% 100%, 0 100%, 0% 20%);
+      }
+    
+      .circle:hover+.about1{
+        display: block;
+        
+    
+      }
+      
+      .circle:hover{
+        transform: scale(1.2);
+      }
+      .circle1:hover{
+        transform: scale(1.2);
+      }
+      .circle2:hover{
+        transform: scale(1.2);
+      }
+      .circle1:hover+.about0{
+        display: block;
+    
+      }
+      .circle2:hover+.about2{
+        display: block;
+    
+      }
+      
+      @keyframes textAnimation {
+        0%{
+          width: 0%;
+        }
+        70%, 100%{
+          width: 48vw;
+        }
+       
       }
 @media (max-width: 560px) {
     #box h2 {
@@ -572,8 +726,38 @@ h2::before{
  .textbox{
     margin-top: 11.5vw;
  }
+ .fami h1{
+    margin-left: 5vw;
+    color:black;
+    font-size: 5vw;
 
+ } 
+ 
 
+ .fami p{
+    margin-left: 5vw;
+    color:black;
+    font-size: 0.5vw;
+
+    
+  }
+  .educ{
+    height: 75vw;
+  }
+  .educ p{
+    color: white;
+    font-size: 0.5vw;
+  }
+  .educ h1{
+    font-size: 3vw;
+  }
+ .container2{
+    width: 45vw;
+   
+ }
+ .navbar-nav{
+    margin-left: 15vw;
+ }
 
 }
 
