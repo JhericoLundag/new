@@ -284,6 +284,210 @@ h2::before{
     margin-top: -30vw;
     margin-bottom: 5vw;
   }
+  
+ .kahon2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width:100vw;
+    padding-top: 20vw;
+    height: 75vw;
+  } 
+  .slider{
+    overflow: hidden;
+  }
+  #slider{
+    margin-top:-75vw;
+    margin-left: 26vw;
+    position: absolute;
+    transform-style: preserve-3d;
+    width: 55vw;
+    height: 20vw; 
+    z-index: 3;
+    perspective: 1800px;
+    perspective-origin: 50%;
+  
+    
+  }
+  #slider label,
+  #slider label img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+    transition: 1300ms ease;
+    
+    
+
+    
+  }
+  #slider label img{
+    width: 30vw;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    
+  }
+  
+  
+  #slider label{
+     width: 30%;
+    z-index: 1;
+  
+   
+  }
+
+  input[type=radio]{
+     position: relative;
+     top: 108%;
+     left:50%;
+     width: 18px;
+     height: 18px;
+     margin: 0 15px 0 0;
+     opacity: 0.4;
+     transform: translateX(-83px);
+     cursor: pointer;
+    
+  
+  }
+  input[type=radio]{
+     visibility: hidden;
+      opacity: 1;
+  }
+  
+  
+  
+  
+  #s1:checked ~ #slider1,
+  #s2:checked ~ #slider2,
+  #s3:checked ~ #slider3,
+  #s4:checked ~ #slider4,
+  #s5:checked ~ #slider5,
+  #s6:checked ~ #slider6 {
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(0%, -2vw, 0px);
+    height: 28vw;
+   
+    
+  }
+  #s1:checked ~ #slider2,
+  #s2:checked ~ #slider3,
+  #s3:checked ~ #slider4,
+  #s4:checked ~ #slider5,
+  #s5:checked ~ #slider6,
+  #s6:checked ~ #slider1 {
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(20%, -0.5vw, -5vw);
+    height: 25vw;
+    
+  }
+  #s1:checked ~ #slider3,
+  #s2:checked ~ #slider4,
+  #s3:checked ~ #slider5,
+  #s4:checked ~ #slider6,
+  #s5:checked ~ #slider1,
+  #s6:checked ~ #slider2{
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(40%, 1vw, -10vw);
+    height: 23vw;
+  }
+  #s1:checked ~ #slider4,
+  #s2:checked ~ #slider5,
+  #s3:checked ~ #slider6,
+  #s4:checked ~ #slider1,
+  #s5:checked ~ #slider2,
+  #s6:checked ~ #slider3 {
+    box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.3),
+                0px 12px 6px rgba(0, 0, 0, 0.2);
+   
+    transform: translate3d(50%, 2vw, -16vw);
+    height: 20vw;
+  }
+  
+  
+  #s1:checked ~ #slider6,
+  #s2:checked ~ #slider1,
+  #s3:checked ~ #slider2,
+  #s4:checked ~ #slider3,
+  #s5:checked ~ #slider4,
+  #s6:checked ~ #slider5 {
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+    transform: translate3d(-20%, -0.5vw, -5vw);
+    height: 25vw;
+  }
+  
+  
+  #s1:checked ~ #slider5,
+  #s2:checked ~ #slider6,
+  #s3:checked ~ #slider1,
+  #s4:checked ~ #slider2,
+  #s5:checked ~ #slider3,
+  #s6:checked ~ #slider4{
+    box-shadow: 0px 13px 26px rgba(0,0,0,0.3),
+                0px 12px 6px rgba(0,0,0,0.2);
+     transform: translate3d(-40%, 1vw, -10vw);
+     height:23vw;
+  }
+  .boxx{
+    position: absolute;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 95vw 55vw;
+    box-shadow: 0px 20px 20px 0px black;
+    width: 95vw;
+    height: 55vw;
+    margin-top: -10vw;
+    background-image: url(fam.jpg) ;
+    opacity: 1;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 1%, 100% 20%, 100% 81%, 43% 81%, 28% 100%, 0 100%, 0% 20%);
+  }
+  .gradient-overlay1 {
+      color: #F8F8FF;
+      height: auto;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to bottom, rgba(0,0,0, 10), rgba(0,0, 0, 0.1));
+      z-index: 2;
+   
+      
+    }
+    .textbox{
+        background-color: white;
+        position: absolute;
+        opacity: 1;
+        width:89vw;
+        height: 50vw;
+        margin-top: -1vw;
+        margin-left: 5vw;
+        z-index: 4;
+        color: black;
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 80%, 42% 80%, 28% 100%, 29% 100%, 69% 100%);
+      }
+      #text{
+        margin-top: 40vw;
+        margin-left: 40vw;
+        color: black;
+        font-variant: small-caps;
+        font-size: 1.5rem;
+       
+      }
+      #text1{
+        color: black;
+        margin-left: 40vw;
+        font-size: 1.3rem;
+        font-variant: small-caps;
+      }
 @media (max-width: 560px) {
     #box h2 {
         font-size: 2.5rem;
@@ -304,7 +508,6 @@ h2::before{
         position: absolute;
         z-index: 1;
         margin-top: 250px;
-        color:red;
     }
     .container1{
         display: block;
@@ -348,7 +551,18 @@ h2::before{
   }
   .flip-card-back h1{
     font-size: 0.5rem;
-
+  }
+  #text{
+    font-size: 0.5rem;
+  }
+  #text1{
+    font-size: 0.4rem;
+  }
+  #slider label img{
+    border-width: 3px;
+  }
+  #slider{
+    margin-top: -95vw;
   }
 
 
