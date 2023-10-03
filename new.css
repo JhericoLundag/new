@@ -9,7 +9,13 @@
     padding: 20px;
     padding-bottom: 13px;
     
+    
   
+}
+#column1{
+  position: fixed; 
+  top: 0; 
+  z-index: 6;
 }
 #x{
     content: '';
