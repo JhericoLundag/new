@@ -296,9 +296,7 @@ h2::before{
     
     
   } 
-  #echo{
-    clip-path: polygon(0% 15%, 0 0, 27% 0, 55% 0, 100% 0, 100% 9%, 100% 100%, 79% 100%, 63% 100%, 29% 100%, 19% 89%, 0 89%);
-  }
+ 
 
   #slider{
     margin-top:-85vw;
@@ -495,14 +493,12 @@ h2::before{
         height: 75vw;
         margin-top: 0vw;
         color:black;
-        clip-path: polygon(0 0, 8% 0, 12% 10%, 30% 10%, 38% 0, 100% 0, 100% 85%, 100% 100%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
       }
       .fami{
         margin-top: 8vw;
         position: absolute;
         width: 45vw;
         height: 55vw;
-        font-size: 2vw;
         font-variant: small-caps;
         color:black;
         
@@ -511,13 +507,14 @@ h2::before{
       .fami h1 , .fami p{
         margin-left: 10vw;
         color:black;
+        font-size: 1rem;
         
       }
       .educ{
         position: absolute;
         background-color: black;
         width: 53.2vw;
-        height: 65vw;
+        height: 75vw;
         margin-left: 42vw;
         color: white;
         padding-top: 2vw;
@@ -527,10 +524,11 @@ h2::before{
       }
       .educ p{
         color: white;
-        font-size: 1.9vw;
+        margin-left: 5vw;
+        font-size: 1rem;
       }
       .educ h1{
-        font-size: 3vw;
+        font-size: 2rem;
       }
       .circle{
         position: absolute;
@@ -716,10 +714,6 @@ h2::before{
   #slider label img{
     border-width: 3px;
   }
-  #slider{
-
-  }
- 
   .boxx{
     margin-top: 5vw;
   }
@@ -729,7 +723,7 @@ h2::before{
  .fami h1{
     margin-left: 5vw;
     color:black;
-    font-size: 5vw;
+    font-size: 0.5rem;
 
  } 
  
@@ -737,20 +731,26 @@ h2::before{
  .fami p{
     margin-left: 5vw;
     color:black;
-    font-size: 0.5vw;
+    margin-top: -3vw;
+    font-size: 0.5rem;
 
     
   }
   .educ{
-    height: 75vw;
+    margin-top: -10vw;
+    padding-top: 3vw;
+    height: 85vw;
   }
   .educ p{
     color: white;
-    font-size: 0.5vw;
+    margin-top: -1.5vw;
+    margin-left: 5vw;
+    font-size: 0.3rem;
   }
   .educ h1{
-    font-size: 3vw;
+    font-size: 0.6rem;
   }
+  
  .container2{
     width: 45vw;
    
