@@ -298,8 +298,8 @@ h2::before{
     overflow: hidden;
   }
   #slider{
-    margin-top:-75vw;
-    margin-left: 26vw;
+    margin-top:-85vw;
+    margin-left: 28vw;
     position: absolute;
     transform-style: preserve-3d;
     width: 55vw;
@@ -457,6 +457,7 @@ h2::before{
       height: auto;
       width: 100%;
       height: 100%;
+      border: 1px solid black;
       background-image: linear-gradient(to bottom, rgba(0,0,0, 10), rgba(0,0, 0, 0.1));
       z-index: 2;
    
@@ -485,7 +486,7 @@ h2::before{
       #text1{
         color: black;
         margin-left: 40vw;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-variant: small-caps;
       }
 @media (max-width: 560px) {
@@ -562,8 +563,9 @@ h2::before{
     border-width: 3px;
   }
   #slider{
-    margin-top: -95vw;
+
   }
+ 
   .boxx{
     margin-top: 5vw;
   }
