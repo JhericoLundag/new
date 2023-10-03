@@ -11,10 +11,20 @@
     
   
 }
-
+#x{
+    content: '';
+    background: url(orb.jpg ) no-repeat center center; 
+    background-size: 40vw 35vw;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+ 
+    
+}
 
 #box h2{
-    opacity: 0.3;
+    opacity: 0.5;
     position: relative;
     font-size: 5rem;
     color: black;
@@ -23,7 +33,7 @@
   
 }
 .para{
-    opacity: 0.3;
+    opacity: 0.5;
     position: relative;
     display: inline-block;
     font-size: 0.9rem;
@@ -461,6 +471,8 @@ h2::before{
    
       
     }
+  
+   
     .textbox{
         background-color: white;
         position: absolute;
@@ -641,6 +653,44 @@ h2::before{
         }
        
       }
+      #xxx{
+        content: '';
+        background: url(circuit.jpg ) no-repeat center center; 
+        background-size: 100vw 85vw;
+        position: absolute;
+        height: 85vw;
+        width: 100%;
+        opacity: 1;
+    
+
+     
+        
+    }
+    #xxxx{
+        content: '';
+        background: url(tech.jpg ) no-repeat center center; 
+        background-size: 70vw 85vw;
+        position: absolute;
+        height: 85vw;
+        width: 100%;
+        margin-top: 25vw;
+        margin-left: -5vw;
+        opacity: 1;
+     
+        
+    }
+    #xx{
+        content: '';
+        background: url(tech1.1.png ) no-repeat center center; 
+        background-size: 100vw 40vw;
+        margin-left: 10vw;
+        position: absolute;
+        height: 60vw;
+        width: 100%;
+        opacity: 1;
+     
+        
+    }
 @media (max-width: 560px) {
     #box h2 {
         font-size: 2.5rem;
@@ -758,6 +808,19 @@ h2::before{
  .navbar-nav{
     margin-left: 15vw;
  }
+ 
+ #xx{
+    content: '';
+    background: url(tech1.jpg ) no-repeat center center; 
+    background-size: 100vw 150vw;
+    margin-left: 15vw;
+    position: absolute;
+    height: 160vw;
+    width: 100%;
+    opacity: 1;
+ 
+    
+}
 
 }
 
