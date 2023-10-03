@@ -292,7 +292,7 @@ h2::before{
     background-color: black;
     width:100vw;
     padding-top: 20vw;
-    height: 75vw;
+    height: 85vw;
   } 
   .slider{
     overflow: hidden;
@@ -564,6 +564,13 @@ h2::before{
   #slider{
     margin-top: -95vw;
   }
+  .boxx{
+    margin-top: 5vw;
+  }
+ .textbox{
+    margin-top: 11.5vw;
+ }
+
 
 
 }
