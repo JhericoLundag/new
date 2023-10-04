@@ -8,9 +8,6 @@
 #box {
     padding: 20px;
     padding-bottom: 13px;
-    
-    
-  
 }
 #column1{
   position: fixed; 
@@ -538,7 +535,7 @@ h2::before{
         background-color: black;
         width: 53.2vw;
         height: 75vw;
-        margin-left: 42vw;
+        margin-left: 39vw;
         color: white;
         padding-top: 2vw;
         padding-left: 2vw;
@@ -815,6 +812,11 @@ h2::before{
     position: absolute;
     height: 160vw;
     width: 100%;
-    opacity: 1;    
+    opacity: 1;
+ 
+    
 }
+
 }
+
+
