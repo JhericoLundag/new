@@ -29,6 +29,7 @@
     height: 35vw;
     width: 100%;
     opacity: 0.3;
+
  
     
 }
@@ -680,8 +681,7 @@ h2::before{
     #xx{
         content: '';
         background: url(tech1.1.png ) no-repeat center center; 
-        background-size: 100vw 50vw;
-        margin-left: 10vw;
+        background-size: 90vw 50vw;
         position: absolute;
         height: 50vw;
         width: 100%;
@@ -815,11 +815,6 @@ h2::before{
     position: absolute;
     height: 160vw;
     width: 100%;
-    opacity: 1;
- 
-    
+    opacity: 1;    
 }
-
 }
-
-
