@@ -74,6 +74,28 @@ function myFunction(x) {
      newImageUrl = 'korean.jpeg'; 
      element.style.backgroundImage = 'url(' + newImageUrl + ')';
    });
-  });
- 
+
+
+  function showLoader() {
+    document.querySelector('.loader').style.display = 'block';
+  }
+  
+  
+  function hideLoader() {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.luding').style.display = 'none';
+  }
+  
+  
+  function simulateLoading() {
+    showLoader();
+  
+    setTimeout(function () {
+      hideLoader();
+      document.querySelector('.enteng').style.display = 'block';
+    }, 4000); 
+  }
+  
+  window.addEventListener('load', simulateLoading);
+});
   
